@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+*
+	{
+		 margin:0;
+		 padding:0;
+		 border:0;
+	}
+body
+	{
+		font-family:"微软雅黑", "Microsoft YaHei UI", "宋体";
+		font-size:14px;
+	}
+	
+strong
+	{
+		font-family:'微软雅黑';
+		font-size:18px;
+		color:#3f3f3f;
+		font-weight:800;
+	}
+	
+	
+	/*------------------  layout  --------------------*/
+html	
+	{
+			min-height:1210px;
+			background-color:#FFF;
+			overflow:scroll;
+			overflow-x:hidden;
+	}
+	
+body
+	{
+		text-align:center;
+		margin:0;
+		padding:0;
+		border:0;
+		background-color:#FFF;
+	}
+	
+div #wrapper
+	{
+		margin:0 auto;
+		padding:0;
+		border:0;
+		width:1239px;
+		text-align:left;
+		background:#FFF;
+	}
+
+/*------------------- header ----------------------------*/
+div #header, div #header_index
+	{
+		margin:0 0 0 12px;
+		padding:0;
+		border:0;
+		width:1210px;
+		height:100px;
+		background-color:#FFF;
+	}
+	
+div #header a, div #header_index a, div #header_index h1
+	{
+		text-indent:-9999px;
+		margin:0;
+		padding:0;
+		border:0;
+		overflow:hidden;
+		float:left;
+	}
+	
+div #header a:link, div #header a:visited
+	{
+		display:block;
+		width:372px;
+		height:90px;
+		background:#FFF;
+		margin:0;
+		padding:0;
+		border:0;
+	}
+	
+div #header a:hover
+	{
+		background:#FFF;
+	}
+	
+div #header div #ad_head
+	{
+		float:right;
+		width:728px;
+		height:90px;
+		background-color:#efefef;
+		margin-top:5px;
+	}
+
+div #header_index a:link, div #header_index a:visited, div#header_index  h1
+	{
+		display: block;	
+		width: 500px;
+		height: 100px;
+		background : transparent url(/ui2017/bg.png) 0 -150px no-repeat;
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+
+div#header_index  h1
+	{
+		display: block;	
+	}
+
+div#header_index  a:hover
+	{
+		background: transparent url(/ui2017/bg.png) 0 -250px no-repeat;
+	}
+
+/*----------------- search form ----------------------------*/
+div#searchui
+		{
+		margin:0;
+		padding:0;
+		width:306px;
+		height:100px;
+		background-color: transparent;
+		float:right;
+		}
+
+#searchui input.button
+		{
+		padding:0;
+		margin:0;
+		background:#AE4141;
+		font:12px Verdana, Arial, Helvetica, sans-serif;
+		color:#FFFFFF;
+		width:30px;
+		height:30px;
+		}
+
+#searchui input.box
+		{
+		margin:0;
+		margin-top:35px;
+		width:256px;
+		height:28px;
+		background:#fdfdfd;
+		font:12px Verdana, Arial, Helvetica, sans-serif;
+		border:1px solid #ddd;
+		}
+
+/* -------------------------- index --------------------------------*/
+body#homefirst div#maincontent div
+		{
+		padding-top:0;
+		padding-bottom:30px;
+		width:810px;
+		}
+
+body#homefirst div#maincontent div#d1
+		{
+		text-align:center;
+		}
+
+body#homefirst div#maincontent div#partner
+		{
+		width: 307px;
+		float: left;
+		}
+
+body#homefirst div#maincontent div#update
+		{
+		width: 300px;
+		float: left;
+		margin:0;
+		}
+
+body#homefirst div#maincontent div#d1 h2
+		{
+		margin-top:35px;
+		font-size:24px;
+		}
+
+body#homefirst div#maincontent div#d1 p
+		{
+		margin-left:0;
+		font-size:18px;
+		}
+
+body#homefirst div#maincontent p
+		{
+		font-size:16px;
+		margin-left:110px;
+		}
+
+body#homefirst div#maincontent h3
+		{
+		margin-top:35px;
+		margin-left:110px;
+		font-size:24px;
+		}
+
+body#homefirst div#maincontent div.idea
+		{
+		padding: 0;
+		padding-bottom:30px;
+		min-height: 118px;
+		}
+
+body#homefirst div#maincontent div#d2
+		{
+		background : transparent url(/ui2017/icon2.png) 0 0 no-repeat;
+		}
+
+body#homefirst div#maincontent div#d3
+		{
+		background : transparent url(/ui2017/icon3.png) 0 0 no-repeat;
+		}
+
+body#homefirst div#maincontent div#d4
+		{
+		background : transparent url(/ui2017/icon4.png) 0 0 no-repeat;
+		}
+
+body#homefirst div#maincontent div#d5
+		{
+		background : transparent url(/ui2017/icon5.png) 0 0 no-repeat;
+		}
+
+body#homefirst div#maincontent div#d6
+		{
+		background : transparent url(/ui2017/icon6.png) 0 0 no-repeat;
+		}
+
+body#homefirst div#maincontent div#d7
+		{
+		background : transparent url(/ui2017/icon7.png) 0 0 no-repeat;
+		}
+
+body#homefirst div#maincontent div#d8
+		{
+		background : transparent url(/ui2017/icon8.png) 0 0 no-repeat;
+		}
+
+body#homefirst div#maincontent div.idea img
+		{
+		margin:0;
+		float:left;
+		}
+/* ----------------------------------- navfirst -----------------------------------*/
