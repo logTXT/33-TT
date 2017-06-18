@@ -100,7 +100,8 @@ div #header_index a:link, div #header_index a:visited, div#header_index  h1
 		display: block;	
 		width: 500px;
 		height: 100px;
-		background : transparent url(/ui2017/bg.png) 0 -150px no-repeat;
+		background: transparent  url(image/pikaqiu.jpg) 10px -220px no-repeat;
+		background-size:100% 100%
 		margin: 0;
 		padding: 0;
 		border: 0;
